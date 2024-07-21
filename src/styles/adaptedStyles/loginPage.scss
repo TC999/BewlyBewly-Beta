@@ -24,7 +24,7 @@
     }
 
     path,
-    .eye-btn:hover svg path {
+    .eye-btn:hover svg path[data-v-51f92a9c] {
       fill: var(--bew-theme-color) !important;
     }
 
@@ -38,24 +38,24 @@
     }
 
     .area-code-select {
-      border: 1px solid var(--bew-border-color);
+      border: 2px solid var(--bew-border-color);
     }
 
     .main__middle-line,
     .tabs_wp div:nth-child(2n) {
-      width: 1px;
+      width: 2px;
       background: var(--bew-border-color);
     }
 
     .main__right .tab__form,
     .main__right .tab__form .form__separator-line {
-      border-width: 1px;
+      border-width: 2px;
       border-color: var(--bew-border-color);
     }
 
     .tab-sms__vertical-line {
-      width: 1px;
-      border-left: 1px solid var(--bew-border-color);
+      width: 2px;
+      border-left: 2px solid var(--bew-border-color);
     }
   }
   // #endregion
@@ -64,7 +64,7 @@
   &.dark {
     p,
     .login-scan__txt p,
-    .third-party-login-wrapper .title，
+    .third-party-login-wrapper .title,
     .tabs_wp div,
     .forget-tip .title,
     .forget-tip .desc {
@@ -72,7 +72,7 @@
     }
 
     .btn_other {
-      border: 1px;
+      border: 2px;
       color: var(--bew-text-2);
       background: #83839124;
     }
@@ -86,6 +86,7 @@
       background: var(--bew-bg);
     }
 
+    body,
     #app,
     .login-scan__qrcode .scan-tips-icon,
     .forget-tip,
