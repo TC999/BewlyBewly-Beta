@@ -1,8 +1,6 @@
 <script setup lang="ts">
 import { useThrottleFn } from '@vueuse/core'
 
-import Logo from '~/components/Logo.vue'
-import SearchBar from '~/components/SearchBar/SearchBar.vue'
 import { useBewlyApp } from '~/composables/useAppProvider'
 import { TOP_BAR_VISIBILITY_CHANGE } from '~/constants/globalEvents'
 import { homePageGridLayout, settings } from '~/logic'
@@ -192,7 +190,7 @@ function toggleTabContentLoading(loading: boolean) {
       </Transition>
 
       <header
-        pos="sticky top-80px" w-full z-9 mb-9 duration-300
+        pos="sticky top-[calc(var(--bew-top-bar-height)+10px)]" w-full z-9 mb-8 duration-300
         ease-in-out flex="~ justify-between items-start gap-4"
         :class="{ hide: shouldMoveTabsUp }"
       >

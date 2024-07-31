@@ -2,7 +2,6 @@
 import { useThrottleFn } from '@vueuse/core'
 import { useI18n } from 'vue-i18n'
 
-import Select from '~/components/Select.vue'
 import { settings } from '~/logic'
 
 import ChangeWallpaper from './ChangeWallpaper.vue'
@@ -115,6 +114,10 @@ function changeWallpaper(url: string) {
             >
           </div>
         </div>
+      </SettingsItem>
+
+      <SettingsItem title="Use linear gradient theme color background when in dark mode">
+        <Radio v-model="settings.useLinearGradientThemeColorBackground" />
       </SettingsItem>
     </SettingsItemGroup>
 
