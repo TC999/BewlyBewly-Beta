@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">只需对您的 Bilibili 主页进行一些小更改即可。</p>
-<p align="center">原项目已停更，本复刻继续更新</p>
+<p align="center">本仓库迁移至 <a href="https://github.com/TC999/BeriBeri">BeriBeri</a></p>
 
 <!-- ![min1](https://github.com/hakadao/BewlyBewly/assets/33394391/951f9e2a-d0e1-452c-83a9-dc6d85c4d441)
 ![min2](https://github.com/hakadao/BewlyBewly/assets/33394391/3e75dd20-f60b-4645-b434-23a24c72959c) -->
